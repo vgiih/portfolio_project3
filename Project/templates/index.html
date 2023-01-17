@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Projeto 3</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="logo">
+				<img src="{{ url_for('static', filename='images/logo-danki.png') }}">
+			</div>
+			<nav class="desktop">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<nav class="mobile">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="clear"></div>
+
+			<div class="call1">
+				<h2>Sistemas Próprios <br> Para Empresas Autênticas</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend commodo ipsum, vitae malesuada nisi convallis eget.</p>
+			</div>
+		</div>
+	</header>
+
+	<section class="section-1" id="services">
+		<div class="container">
+			<div class="section1-text">
+				<h2>Desenvolvemos Sistemas Únicos</h2>
+				<p>Lorem ipsum silor domor amet</p>
+				<ul>
+					<li>Sites</li>
+					<li>Lojas Virtuais</li>
+					<li>Sistemas</li>
+				</ul>
+				<div class="clear"></div>
+				<div class="btn-1">Entre em Contato</div>
+			</div>
+			<div class="device1"></div>
+			<div class="clear"></div>
+		</div>
+	</section>
+
+	<section class="section-2" id="about">
+		<div class="container">
+			<h2>Desenvolvido por Pessoas e para Pessoas</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas tortor nulla, in varius purus placerat sed. Donec ac felis nunc. Nulla feugiat urna odio, eget feugiat lacus venenatis nec. Sed non odio et eros fringilla varius. Maecenas feugiat ornare velit nec elementum. Fusce faucibus, ipsum vel posuere posuere, neque purus ultrices ex, eget porta tortor urna eu dolor.</p>
+			<img src="{{ url_for('static', filename='images/mockup.jpg') }}">
+		</div>
+	</section>
+
+	<section class="section-3">
+		<div class="part1">
+			<div class="wrapper-part1">
+				<h2>Nosso Time</h2>
+				<p>Nulla feugiat urna odio, eget feugiat lacus venenatis nec. Sed non odio et eros fringilla varius. Maecenas feugiat ornare velit nec elementum. Fusce faucibus, ipsum vel posuere posuere, neque purus ultrices ex, eget porta tortor urna eu dolor.</p>
+			</div>
+		</div>
+
+
+		<div class="part2">
+			<div class="scroll-team">
+			<div class="scroll-wrapper">
+				
+			<div class="author">
+				<div class="title-author">
+					<h2>Giovanna Vieira</h2>
+					<p>Co-Founder & Web Developer</p>
+				</div>
+				<div class="txt-author">
+					<p>Nulla feugiat urna odio, eget feugiat lacus venenatis nec. Sed non odio et eros fringilla varius. Maecenas feugiat ornare velit nec elementum. Fusce faucibus, ipsum vel posuere posuere, neque purus ultrices ex, eget porta tortor urna eu dolor.
+					</p>					
+				</div>
+			</div>
+
+			<div class="author">
+				<div class="title-author">
+					<h2>Giovanna Vieira</h2>
+					<p>Co-Founder & Web Developer</p>
+				</div>
+				<div class="txt-author">
+					<p>Nulla feugiat urna odio, eget feugiat lacus venenatis nec. Sed non odio et eros fringilla varius. Maecenas feugiat ornare velit nec elementum. Fusce faucibus, ipsum vel posuere posuere, neque purus ultrices ex, eget porta tortor urna eu dolor.
+					</p>					
+				</div>
+			</div>
+
+			<div class="author">
+				<div class="title-author">
+					<h2>Giovanna Vieira</h2>
+					<p>Co-Founder & Web Developer</p>
+				</div>
+				<div class="txt-author">
+					<p>Nulla feugiat urna odio, eget feugiat lacus venenatis nec. Sed non odio et eros fringilla varius. Maecenas feugiat ornare velit nec elementum. Fusce faucibus, ipsum vel posuere posuere, neque purus ultrices ex, eget porta tortor urna eu dolor.
+					</p>					
+				</div>
+			</div>
+			</div>
+			</div>
+
+			<div class="slider-bullets"></div>
+		</div>
+		<div class="clear"></div>
+	</section>
+
+	<section class="section-4" id="contact">
+		<div class="container">
+			<div class="form">
+				<h2>Entre em contato</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eleifend commodo ipsum, vitae malesuada nisi convallis eget.</p>
+
+				<!-- method="post" action="form.php" -->
+				<form>
+					<input type="text" name="nome" placeholder="Nome*">
+					<input type="email" name="email" placeholder="E-mail*">
+					<textarea name="message" placeholder="Escreva sua mensagem aqui..."></textarea>
+
+					<div class="clear"></div>
+
+					<div class="btn-1">Enviar</div>
+				</form>
+			</div>
+
+		<div class="map-wrapper">
+			<h2>Faça uma visita</h2>
+			<div class="map-wrapper-3">
+				<div class="map-wrapper-2">
+					<iframe width="480" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="map" id="gmap_canvas" src="https://maps.google.com/maps?width=480&amp;height=480&amp;hl=en&amp;q=Estrada%20da%20Circunvalacao%2014044%20Matosinhos+(Map)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href='https://maps-generator.com/'>Maps Generator</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="clear"></div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>Todos os direitos reservados</p>
+			<p>giihvieira1703@gmail.com</p>
+		</div>
+		<div class="clear"></div>
+	</footer>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/functions.js') }}"></script>
+</body>
+</html>
